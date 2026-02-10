@@ -1,0 +1,36 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family:'Times New Roman', Times, serif;
+line-height: 1.6;
+}
+.header {
+background-color: #eef5ef;
+color: white;
+padding: 15px 20px;
+display: flex;
+flex-direction: column;
+gap: 15px;
+color: black;
+text-align: right;
+
+}
+.logo {
+font-size: 30px;
+font-weight:700;
+}
+
+.nav {
+display: flex;
+flex-direction:column-reverse;
+gap: 9px;
+}
+.footer {
+background-color: #727272;
+color: white;
+text-align: center;
+}
